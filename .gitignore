@@ -1,0 +1,5 @@
+# Anything that's part of the build process.
+*.o
+
+# Vim crap
+*.sw[onp]
