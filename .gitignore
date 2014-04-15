@@ -1,5 +1,67 @@
 # Anything that's part of the build process.
 *.o
+*.lo
+
+# Artifacts
+/src/cmph
+/src/bm_numbers
+/src/libcmph.la
 
 # Vim crap
 *.sw[onp]
+
+# Transient test stuff
+/tests/.deps
+/tests/.libs/
+/tests/Makefile
+/tests/Makefile.in
+/tests/mphf_tests
+/tests/packed_mphf_tests
+
+# Transient examples stuff
+/examples/.deps
+/examples/.libs/
+/examples/Makefile
+/examples/Makefile.in
+/examples/mphf_tests
+/examples/packed_mphf_tests
+
+# TODO: Got tired of trying to break shit out. What do we want/not want from
+# here?
+INSTALL
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache/
+cmph.pc
+compile
+config.guess
+config.h
+config.h.in
+config.h.in~
+config.log
+config.status
+config.sub
+configure
+cxxmph.pc
+cxxmph/.deps/
+cxxmph/Makefile
+cxxmph/Makefile.in
+depcomp
+examples/file_adapter_ex2
+examples/small_set_ex4
+examples/struct_vector_adapter_ex3
+examples/vector_adapter_ex1
+install-sh
+libtool
+ltmain.sh
+m4/
+man/Makefile
+man/Makefile.in
+missing
+src/.deps/
+src/.libs/
+src/Makefile
+src/Makefile.in
+stamp-h1
+test-driver
